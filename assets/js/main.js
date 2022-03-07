@@ -177,8 +177,7 @@
   new Swiper('.certificate-slider', {
     speed: 1000,
     loop: false,
-    slidesPerView: 4,
-    slidesPerGroup: 4,
+
     loopFillGroupWithBlank: true,
     autoplay: {
       delay: 5000,
@@ -187,7 +186,7 @@
 
     pagination: {
       el: '.swiper-pagination',
-      // dynamicBullets: true,
+      dynamicBullets: true,
       dynamicMainBullets: 5,
       type: 'bullets',
       clickable: true,
@@ -196,14 +195,17 @@
       320: {
         slidesPerView: 1,
         spaceBetween: 20,
+        slidesPerGroup: 1,
       },
       768: {
         slidesPerView: 2,
         spaceBetween: 20,
+        slidesPerGroup: 2,
       },
       1200: {
         slidesPerView: 4,
         spaceBetween: 20,
+        slidesPerGroup: 4,
       },
     },
   });
