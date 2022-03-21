@@ -140,7 +140,7 @@
     }
   });
 
-  // skills
+  // devTechno
   new Swiper('.skills-slider', {
     speed: 600,
     loop: false,
@@ -167,7 +167,7 @@
         spaceBetween: 20,
       },
       1200: {
-        slidesPerView: 6,
+        slidesPerView: 5,
         spaceBetween: 20,
       },
     },
@@ -209,6 +209,7 @@
       },
     },
   });
+
   //Porfolio isotope and filter
   window.addEventListener('load', () => {
     let portfolioContainer = select('.portfolio-container');
@@ -240,35 +241,35 @@
   });
 
   // portfolio-details
-  new Swiper('.portfolio-details-slider', {
-    speed: 600,
-    loop: false,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-    },
-    // slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
+  // new Swiper('.portfolio-details-slider', {
+  //   speed: 600,
+  //   loop: false,
+  //   autoplay: {
+  //     delay: 5000,
+  //     disableOnInteraction: false,
+  //   },
+  // slidesPerView: 'auto',
+  // pagination: {
+  //   el: '.swiper-pagination',
 
-      dynamicBullets: true,
-      dynamicMainBullets: 3,
-      clickable: true,
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 20,
-      },
+  //   dynamicBullets: true,
+  //   dynamicMainBullets: 3,
+  //   clickable: true,
+  // },
+  // breakpoints: {
+  //   320: {
+  //     slidesPerView: 1,
+  //     spaceBetween: 20,
+  //   },
 
-      768: {
-        slidesPerView: 1,
-        spaceBetween: 20,
-      },
-      1200: {
-        slidesPerView: 1,
-        spaceBetween: 20,
-      },
-    },
-  });
+  //   768: {
+  //     slidesPerView: 1,
+  //     spaceBetween: 20,
+  //   },
+  //   1200: {
+  //     slidesPerView: 1,
+  //     spaceBetween: 20,
+  //   },
+  // },
+  // });
 })();

@@ -61,21 +61,7 @@ p {
   font-weight: 700;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.bg_titleSectionB {
-  background-color: white;
-  padding: 10px 15px;
-  font-size: 15px;
-  color: black;
-  font-weight: 700;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 .bg_SubtitleSectionA {
-  color: white;
-  text-align: center;
-  text-transform: capitalize;
-  text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.bg_SubtitleSectionB {
   color: white;
   text-align: center;
   text-transform: capitalize;
@@ -92,24 +78,9 @@ p {
   font-weight: bold;
   text-align: center;
 }
-.scrollB {
-  margin: 80px 0px 0px;
-  -webkit-animation: blink 0.75s linear infinite;
-  -moz-animation: blink 0.75s linear infinite;
-  -ms-animation: blink 0.75s linear infinite;
-  -o-animation: blink 0.75s linear infinite;
-  animation: blink 0.75s linear infinite;
-  color: #01293c;
-  font-weight: bold;
-  text-align: center;
-}
 .scrollA:hover {
   color: white;
 }
-.scrollB:hover {
-  color: black;
-}
-
 /*--------------------------------------------------------------
 # Back to top icon
 --------------------------------------------------------------*/
@@ -474,7 +445,7 @@ p {
   background-color: #01293c;
 }
 #experience .bg_titleSectionB {
-  background-color: #ffffff;
+  background-color: white;
 }
 #experience .timeline {
   position: relative;
@@ -576,12 +547,7 @@ p {
   position: absolute;
   bottom: 0;
 }
-#devTechno .bg_titleSectionA {
-  z-index: 1;
-  position: relative;
-  background-color: #000000;
-  color: white;
-}
+#devTechno .bg_titleSectionA,
 #devTechno .bg_SubtitleSectionA {
   z-index: 1;
   position: relative;
@@ -590,7 +556,7 @@ p {
   background-color: black;
   padding: 15px;
   transition: 1s;
-  border-radius: 0px;
+  border-radius: 0px 0px 100px 100px;
 }
 #devTechno .card {
   width: 100%;
@@ -603,36 +569,20 @@ p {
 #devTechno .swiper-slide:hover {
   background: white;
 }
-#devTechno .swiper-slide:hover h5,
-#devTechno .swiper-slide:hover .skill,
-#devTechno .swiper-slide:hover i .val {
+#devTechno .swiper-slide:hover h5 {
   color: black;
 }
 #devTechno .card-title {
   margin: 0;
   font-size: 20px;
-  padding: 10px 10px 0px;
+  padding: 15px 5px;
   color: white;
   text-transform: capitalize;
 }
-#devTechno .card .skill {
-  font-size: 15px;
-  text-transform: uppercase;
-  text-align: left;
-  color: white;
-}
-#devTechno .card .skill .val {
-  float: right;
-  font-size: 15px;
-}
-#devTechno .bg-bar {
-  background-color: black;
-  height: 100%;
-}
 #devTechno .swiper-wrapper .card .size-skill-card {
   width: auto;
-  height: 100px;
-  margin: auto;
+  height: 70px;
+  margin: 10px auto;
   padding: 5px;
 }
 #devTechno .skills-slider .swiper-pagination {
@@ -749,9 +699,9 @@ p {
   padding: 10px;
 }
 #portfolio .portfolio-container .filter-code .wrap-portfolio .image {
-  height: 240px;
+  height: 320px;
   width: 100%;
-  box-sizing: content-box;
+  margin: auto;
 }
 #portfolio .portfolio-container .overlay a:hover {
   background-color: black;
@@ -824,6 +774,7 @@ p {
 #certificate .swiper-slide {
   background-color: rgba(219, 219, 219, 0.1);
   height: 440px;
+  border-radius: 10px;
 }
 #certificate .swiper-slide:hover {
   background-color: rgba(255, 255, 255, 0.2);
@@ -835,6 +786,7 @@ p {
   transition: 2s;
   padding: 20px;
   box-sizing: content-box;
+  border-radius: 10px 60px;
 }
 #certificate .size-certificate:hover {
   transform: scale(1.5);
