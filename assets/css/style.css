@@ -319,6 +319,7 @@ p {
   background-position: center;
   position: relative;
   background-attachment: fixed;
+  min-height: 100vh;
 }
 #hero::after {
   content: '';
@@ -329,22 +330,20 @@ p {
   position: absolute;
   bottom: 0;
 }
-#hero h3 {
+#hero .a {
+  padding: 10rem 10px;
+}
+#hero h1 {
   text-transform: capitalize;
   text-align: center;
   color: black;
   background-color: rgba(255, 255, 255, 0.4);
   padding: 25px;
-  margin: 15rem 0px 10.1rem;
   font-size: 40px;
   z-index: 1;
   position: relative;
 }
-#hero .sosmed-icon {
-  padding: 70px 0px 125px;
-  z-index: 1;
-  position: relative;
-}
+
 #hero .btnContact {
   background-color: rgba(0, 0, 0, 0.4);
   padding: 20px 50px;
@@ -374,6 +373,34 @@ p {
   color: white;
 }
 
+/* Mobile Device */
+@media (max-width: 426px) {
+  #hero .a {
+    padding: 5rem 10px;
+  }
+  #hero h1 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 376px) {
+  #hero .a {
+    padding: 1rem 10px;
+  }
+}
+@media (max-width: 376px) {
+  #hero .a {
+    padding: 6rem 10px;
+  }
+  #hero h1 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  #hero .btnContact {
+    font-size: 15px;
+  }
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -391,14 +418,15 @@ p {
   -o-object-fit: cover;
   object-fit: cover;
 }
-#about .col-lg-12 .btnDownload {
-  background-color: black;
+#about .btnDownload {
+  background-color: rgba(255, 255, 255, 0.6);
   padding: 15px 35px;
   color: white;
   font-size: 20px;
   box-sizing: content-box;
   font-weight: 700;
   box-shadow: 1px 5px 5px black;
+  text-align: center;
 }
 #about .col-lg-12 .btnDownload:hover {
   background-color: white;
@@ -626,7 +654,6 @@ p {
   line-height: 1;
   text-transform: uppercase;
   color: white;
-  /* background-color: rgba(37, 81, 102, 0.884); */
   background-color: #1e2631;
 }
 #portfolio #portfolio-filters li:hover {
@@ -655,7 +682,7 @@ p {
   top: 100%;
   left: 0;
   right: 0;
-  background-color: white;
+  background-color: #1e2631;
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -684,17 +711,19 @@ p {
 #portfolio .portfolio-container .overlay .title-project {
   text-transform: uppercase;
   font-size: 25px;
+  color: white;
 }
 #portfolio .portfolio-container .overlay .short-des {
   font-size: 14px;
   text-align: center;
   line-height: 1.5;
-  color: rgb(58, 58, 58);
+  color: rgba(209, 209, 209, 0.8);
+  padding-bottom: 2rem;
 }
 #portfolio .portfolio-container .overlay a {
   font-size: 15px;
   text-align: center;
-  background-color: rgba(196, 196, 196, 0.801);
+  background-color: white;
   color: black;
   padding: 10px;
 }
@@ -742,7 +771,7 @@ p {
   position: absolute;
   bottom: 0;
 }
-#hireMe h1 {
+#hireMe h2 {
   font-size: 50px;
   color: black;
   text-align: center;
@@ -764,6 +793,11 @@ p {
 #hireMe a:hover {
   color: white;
 }
+@media (max-width: 376px) {
+  #hireMe h2 {
+    font-size: 40px;
+  }
+}
 
 /*--------------------------------------------------------------
 # Certificate
@@ -773,21 +807,21 @@ p {
 }
 #certificate .swiper-slide {
   background-color: rgba(219, 219, 219, 0.1);
-  height: 440px;
+  height: 470px;
   border-radius: 10px;
 }
 #certificate .swiper-slide:hover {
   background-color: rgba(255, 255, 255, 0.2);
-  height: 440px;
 }
 #certificate .size-certificate {
-  height: 180px;
+  height: auto;
+  width: 80%;
   margin-bottom: 10px;
   transition: 2s;
   padding: 20px;
   box-sizing: content-box;
-  border-radius: 10px 60px;
 }
+
 #certificate .size-certificate:hover {
   transform: scale(1.5);
   transition: 2s;
@@ -823,11 +857,7 @@ p {
   color: white;
   padding: 10px 10px;
 }
-@media (min-width: 350px) {
-}
-#certificate .size-certificate {
-  width: 250px;
-}
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/

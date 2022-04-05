@@ -144,6 +144,7 @@
   new Swiper('.skills-slider', {
     speed: 600,
     loop: false,
+    loopFillGroupWithBlank: true,
     autoplay: {
       delay: 5000,
       disableOnInteraction: false,
@@ -158,8 +159,9 @@
     },
     breakpoints: {
       320: {
-        slidesPerView: 1,
+        slidesPerView: 2,
         spaceBetween: 20,
+        slidesPerGroup: 2,
       },
 
       768: {
@@ -177,7 +179,6 @@
   new Swiper('.certificate-slider', {
     speed: 1000,
     loop: false,
-
     loopFillGroupWithBlank: true,
     autoplay: {
       delay: 5000,
