@@ -735,6 +735,12 @@ p {
   background-color: black;
   color: white;
 }
+@media (max-width: 769px) {
+  #portfolio .portfolio-container .overlay a {
+    font-size: 10px;
+  }
+}
+
 @media (max-width: 576px) {
   #portfolio .pad-portfolio {
     padding: 0px 12px 0px 0px;
