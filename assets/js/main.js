@@ -167,10 +167,12 @@
       768: {
         slidesPerView: 3,
         spaceBetween: 20,
+        slidesPerGroup: 3,
       },
       1200: {
         slidesPerView: 5,
         spaceBetween: 20,
+        slidesPerGroup: 5,
       },
     },
   });
@@ -240,37 +242,4 @@
       );
     }
   });
-
-  // portfolio-details
-  // new Swiper('.portfolio-details-slider', {
-  //   speed: 600,
-  //   loop: false,
-  //   autoplay: {
-  //     delay: 5000,
-  //     disableOnInteraction: false,
-  //   },
-  // slidesPerView: 'auto',
-  // pagination: {
-  //   el: '.swiper-pagination',
-
-  //   dynamicBullets: true,
-  //   dynamicMainBullets: 3,
-  //   clickable: true,
-  // },
-  // breakpoints: {
-  //   320: {
-  //     slidesPerView: 1,
-  //     spaceBetween: 20,
-  //   },
-
-  //   768: {
-  //     slidesPerView: 1,
-  //     spaceBetween: 20,
-  //   },
-  //   1200: {
-  //     slidesPerView: 1,
-  //     spaceBetween: 20,
-  //   },
-  // },
-  // });
 })();
