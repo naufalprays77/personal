@@ -747,6 +747,18 @@ p {
     margin: auto;
   }
 }
+@media (max-width: 321px) {
+  #portfolio .portfolio-container .overlay a {
+    font-size: 8px;
+  }
+  #portfolio .short-des {
+    padding-bottom: 10px !important;
+  }
+  #portfolio .text {
+    padding-top: 20px !important;
+    padding-bottom: 30px !important;
+  }
+}
 
 /*--------------------------------------------------------------
 # Hire Me
