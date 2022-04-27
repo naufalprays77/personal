@@ -181,7 +181,7 @@ p {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus {
-  color: black;
+  color: rgb(54, 54, 54);
   background-color: #f7ce40;
 }
 .navbar .dropdown a {
