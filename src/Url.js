@@ -7,7 +7,7 @@ function Url() {
   return (
     <div className="app ">
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/personal" element={<App />} />
       </Routes>
       <Footer />
     </div>
