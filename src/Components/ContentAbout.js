@@ -17,9 +17,9 @@ export const ContentAbout = () => {
         Why hire me for your next project?
       </h2>
       <p className="text-paragraph text-[14px] md:text-[16px] lg:text-[15px] xl:text-[16px]  ">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-        specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-        make a type specimen book
+        Nanda Naufal Prayasdewo who is usually called Naufal is a web developer with a focus on front end developers, he is also a graduate of Binus University with a major in informatics. In building the web he uses several web development
+        technologies such as HTML, CSS, JS, Bootstrap, Tailwind CSS to the use of the UI library (React JS), but not only explores web development, he also begins to explore UI/UX, especially to create mock up designs. mobile or web. he
+        really likes to build a project from scratch, because according to him it is a challenge.
       </p>
       <div class="grid grid-cols-2 gap-2 md:grid-cols-3 lg:grid-cols-2 lg:gap-2 md:gap-4 xl:grid-cols-3 xl:gap-4 mt-4 text-[14px] md:text-[16px]">
         <div className="text-paragraph">
@@ -36,7 +36,7 @@ export const ContentAbout = () => {
         </div>
       </div>
       <div className="flex xl:mt-8 mt-12 gap-4">
-        <a href="https://www.w3schools.com" className="text-white text-[14px] md:text[16px] hover:bg-blueSoft bg-[#808080] py-2 px-6 rounded-full animate-pulse">
+        <a href="https://drive.google.com/file/d/1Qk8KmOB54j07xKb12L8yh4a9dgkT_whZ/view" className="text-white text-[14px] md:text[16px] hover:bg-blueSoft bg-[#808080] py-2 px-6 rounded-full animate-pulse">
           Download CV
         </a>
       </div>

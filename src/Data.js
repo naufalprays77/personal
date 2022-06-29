@@ -102,7 +102,7 @@ export const dataProject = [
     linkView: 'https://naufalprays77.github.io/web-portA3/',
     linkCode: 'https://github.com/naufalprays77/web-portA3.git',
     documentation: 'https://drive.google.com/drive/folders/1-6EfjDYwKdcO2vSNu4ZOWU7Pbox6LrcD?usp=sharing',
-    description: 'This project was developed using React JS, HTML, CSS, JavaScript & Bootstrap technology, besides that I also used Figma to make a mock-up of the website.',
+    description: 'This project was developed using React JS, HTML, Tailwind CSS, JavaScript & Bootstrap technology, besides that I also used Figma to make a mock-up of the website.',
   },
   {
     id: '4',
@@ -229,12 +229,11 @@ export const dataTools = [
     tools: CSS,
   },
 ];
-
 // social
 export const datasocial = [
   {
     icon: <FiPhone />,
-    href: 'https://wa.me/628981609573?text=Hallo Perkenalkan saya"',
+    href: 'https://wa.me/628981609573?text=Hallo Perkenalkan saya',
   },
   {
     icon: <FiMail />,
@@ -253,7 +252,6 @@ export const datasocial = [
     href: 'https://github.com/naufalprays77',
   },
 ];
-
 // Certificate
 export const datacertificate = [
   {
