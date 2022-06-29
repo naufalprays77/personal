@@ -5,7 +5,6 @@ import './Assets/CSS/Style.css';
 import About from './Views/About';
 import Home from './Views/Home';
 import Contact from './Views/Contact';
-import Journey from './Views/Journey';
 import Project from './Views/Project';
 import { BreakSection } from './Components/BreakSection';
 import SDNT from './Views/SDNT';
