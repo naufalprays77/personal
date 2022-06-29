@@ -11,16 +11,16 @@ function ProjectMenu({ menuItem }) {
             <div class="overlay">
               <div class="text">
                 <div className="text-[20px] pb-4 uppercase">{item.title}</div>
-                <p>{item.description}</p>
+                <p className="text-[10px] md:text-[14px]">{item.description}</p>
                 <div className="pt-5">
                   <a href={item.linkView} className=" text-white hover:text-black bg-blackSoft hover:bg-white p-2 text-[9px] md:text-[12px] mx-1">
                     View Project
                   </a>
-                  <a href={item.linkCode} className=" text-white hover:text-black bg-blackSoft hover:bg-white p-2 text-[9px] md:text-[12px] mx-1">
-                    Source Code
-                  </a>
                   <a href={item.documentation} className=" text-white hover:text-black bg-blackSoft hover:bg-white p-2 text-[9px] md:text-[12px] mx-1">
                     Documentation
+                  </a>
+                  <a href={item.linkCode} className=" text-white hover:text-black bg-blackSoft hover:bg-white p-2 text-[9px] md:text-[12px] mx-1">
+                    Source Code
                   </a>
                 </div>
               </div>
