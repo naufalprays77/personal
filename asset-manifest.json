@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal/static/css/main.ab1e2133.css",
-    "main.js": "/personal/static/js/main.16c9148e.js",
+    "main.js": "/personal/static/js/main.a25b4502.js",
     "static/js/787.fb771931.chunk.js": "/personal/static/js/787.fb771931.chunk.js",
     "static/media/08.jpg": "/personal/static/media/08.9f2f6ed831ce1d5890b9.jpg",
     "static/media/04.jpg": "/personal/static/media/04.4140340591c0dc24b0a8.jpg",
@@ -46,13 +46,13 @@
     "static/media/06.jpg": "/personal/static/media/06.e2c00f144116438515e6.jpg",
     "static/media/SQL-Server.png": "/personal/static/media/SQL-Server.ad1eabbc79c0c76db4cc.png",
     "static/media/VS-Code.png": "/personal/static/media/VS-Code.a61dc62c499ed3aeefdc.png",
-    "static/media/W03.jpg": "/personal/static/media/W03.38e3cbb7031f3a7fb536.jpg",
     "static/media/01.jpg": "/personal/static/media/01.c1a4049e6f66e0309d90.jpg",
     "static/media/VisualStudio.png": "/personal/static/media/VisualStudio.8c02b972d3ecf810c018.png",
     "static/media/COM.png": "/personal/static/media/COM.7e6d323362e10e3e79af.png",
     "static/media/tailwind.png": "/personal/static/media/tailwind.607aa5341d521e4bc67f.png",
     "static/media/Bootsrap.png": "/personal/static/media/Bootsrap.1646ad1b0e4a5d5b88eb.png",
     "static/media/W06.jpg": "/personal/static/media/W06.56971fbae85ef1d7893f.jpg",
+    "static/media/W03.jpg": "/personal/static/media/W03.dee5d04e14167f4a61fb.jpg",
     "static/media/W05.jpg": "/personal/static/media/W05.a0cf5f68df44402d80ae.jpg",
     "static/media/W07.jpg": "/personal/static/media/W07.68b26481352e333d826d.jpg",
     "static/media/office-application.png": "/personal/static/media/office-application.e25e025781608fa65981.png",
@@ -72,11 +72,11 @@
     "static/media/slick.woff": "/personal/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/personal/index.html",
     "main.ab1e2133.css.map": "/personal/static/css/main.ab1e2133.css.map",
-    "main.16c9148e.js.map": "/personal/static/js/main.16c9148e.js.map",
+    "main.a25b4502.js.map": "/personal/static/js/main.a25b4502.js.map",
     "787.fb771931.chunk.js.map": "/personal/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab1e2133.css",
-    "static/js/main.16c9148e.js"
+    "static/js/main.a25b4502.js"
   ]
 }
