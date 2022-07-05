@@ -36,7 +36,7 @@ export const ContentAbout = () => {
         </div>
       </div>
       <div className="flex xl:mt-8 mt-12 gap-4">
-        <a href="https://drive.google.com/file/d/1J4jTcRRlOGKUW1yB6xRFZmZTnX4oyq9d/view?usp=sharing" className="text-white text-[14px] md:text[16px] hover:bg-blueSoft bg-[#808080] py-2 px-6 rounded-full animate-pulse">
+        <a href="https://drive.google.com/file/d/129ve6C5ItH_zNLu9JbQGrDEAk-OYWzyZ/view?usp=sharing" className="text-white text-[14px] md:text[16px] hover:bg-blueSoft bg-[#808080] py-2 px-6 rounded-full animate-pulse">
           Download CV
         </a>
       </div>
