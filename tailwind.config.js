@@ -5,10 +5,6 @@ module.exports = {
     extend: {
       backgroundImage: {
         'z-section': "url('/img/hero-pattern.svg')",
-        'break-section': "url('/src/Assets/Img/break-section1.jpg')",
-
-        // 'about-section': "url('/src/Assets/Img/bg-home-1.jpg')",
-        'about-section': 'linear-gradient(to right, #1F1F1F, #32637B, #1F1F1F);',
       },
       colors: {
         blackSoft: '#1F1F1F',

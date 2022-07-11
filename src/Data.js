@@ -66,7 +66,7 @@ import W02 from './Assets/Img/Projects/W02.jpg';
 import W03 from './Assets/Img/Projects/W03.jpg';
 import W04 from './Assets/Img/Projects/W04.jpg';
 import W05 from './Assets/Img/Projects/W05.jpg';
-import W06 from './Assets/Img/Projects/W06.jpg';
+// import W06 from './Assets/Img/Projects/W06.jpg';
 import W07 from './Assets/Img/Projects/W07.jpg';
 import C01 from './Assets/Img/Projects/C01.jpg';
 import C02 from './Assets/Img/Projects/C02.jpg';
@@ -106,13 +106,13 @@ export const dataProject = [
   },
   {
     id: '4',
-    image: COM,
+    image: W04,
     title: 'Project 04',
     category: 'Web',
-    // linkView: 'https://naufalprays77.github.io/web-portA4/',
+    linkView: 'https://naufalprays77.github.io/web-portA4/',
     // linkCode: 'https://github.com/naufalprays77/web-portA4.git',
     // documentation: 'https://drive.google.com/drive/folders/1sJUh9e8qFHJPyybqZNapZ0dG7X_QG9LP?usp=sharing',
-    // description: 'This project was developed using HTML, CSS, JavaScript & Bootstrap technology, besides that I also used Figma to make a mock-up of the website.',
+    description: 'This project was developed using React JS, HTML and CSS technology, this website tell about fetch API from server',
   },
   {
     id: '5',
@@ -428,63 +428,5 @@ export const datacertificate = [
     id: 35,
     image: cert35,
     href: '',
-  },
-];
-
-export const dataJourney = [
-  {
-    id: 1,
-    dateJourney: 'Sept 2021 - Nov 2021',
-    jobTitleJourney: 'Jr. Backend Developer',
-    placeJourney: 'Pasarjasa ',
-    descriptionJourney: {
-      description1: 'Create and implement the results of the database design that has been designed into functions. so that the required program can be run by the user.',
-      description2: 'Create UAT & Flow Testing based on available features, then report and document test results, so stakeholder can decide whether the product is ready to launch or not.',
-    },
-  },
-  {
-    id: 2,
-    dateJourney: 'Feb 2020 - Feb 2021',
-    jobTitleJourney: 'Web Developer',
-    placeJourney: 'PT. Sanghiang Perkasa (Kalbe Nutitionals)',
-    descriptionJourney: {
-      description1: 'Develop companys internal website using C# or VB as programming language with MVC.NET framework and MS SQL as a database.',
-      description2:
-        'Take over the task when there are complaints from users, then resolve the problem according to the technology used and finally I make documentation of the problem, so that if a similar error occurs it will be more effective and efficient to solve it.',
-    },
-  },
-  {
-    id: 3,
-    dateJourney: 'Feb 2020 - Feb 2021',
-    jobTitleJourney: 'Web Developer',
-    placeJourney: 'PT. Sanghiang Perkasa (Kalbe Nutitionals)',
-    descriptionJourney: {
-      description1: 'Develop companys internal website using C# or VB as programming language with MVC.NET framework and MS SQL as a database.',
-      description2:
-        'Take over the task when there are complaints from users, then resolve the problem according to the technology used and finally I make documentation of the problem, so that if a similar error occurs it will be more effective and efficient to solve it.',
-    },
-  },
-  {
-    id: 4,
-    dateJourney: 'Feb 2020 - Feb 2021',
-    jobTitleJourney: 'Web Developer',
-    placeJourney: 'PT. Sanghiang Perkasa (Kalbe Nutitionals)',
-    descriptionJourney: {
-      description1: 'Develop companys internal website using C# or VB as programming language with MVC.NET framework and MS SQL as a database.',
-      description2:
-        'Take over the task when there are complaints from users, then resolve the problem according to the technology used and finally I make documentation of the problem, so that if a similar error occurs it will be more effective and efficient to solve it.',
-    },
-  },
-  {
-    id: 5,
-    dateJourney: 'Feb 2020 - Feb 2021',
-    jobTitleJourney: 'Web Developer',
-    placeJourney: 'PT. Sanghiang Perkasa (Kalbe Nutitionals)',
-    descriptionJourney: {
-      description1: 'Develop companys internal website using C# or VB as programming language with MVC.NET framework and MS SQL as a database.',
-      description2:
-        'Take over the task when there are complaints from users, then resolve the problem according to the technology used and finally I make documentation of the problem, so that if a similar error occurs it will be more effective and efficient to solve it.',
-    },
-    // ],
   },
 ];
