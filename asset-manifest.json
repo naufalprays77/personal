@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal/static/css/main.ab1e2133.css",
-    "main.js": "/personal/static/js/main.6c9e4cdc.js",
+    "main.js": "/personal/static/js/main.f4a91360.js",
     "static/js/787.fb771931.chunk.js": "/personal/static/js/787.fb771931.chunk.js",
     "static/media/08.jpg": "/personal/static/media/08.9f2f6ed831ce1d5890b9.jpg",
     "static/media/04.jpg": "/personal/static/media/04.4140340591c0dc24b0a8.jpg",
@@ -15,7 +15,6 @@
     "static/media/022.jpg": "/personal/static/media/022.c9146b8ce7587f5d5c43.jpg",
     "static/media/profile-pic2.png": "/personal/static/media/profile-pic2.c093ecf5e92336953a34.png",
     "static/media/020.jpg": "/personal/static/media/020.14d0f89e6968053201b9.jpg",
-    "static/media/W01.jpg": "/personal/static/media/W01.7cc37ee62bd9930740fb.jpg",
     "static/media/W02.jpg": "/personal/static/media/W02.bdcaa8a164e1ea7ba35c.jpg",
     "static/media/017.jpg": "/personal/static/media/017.0b810ab1d3c7528e208c.jpg",
     "static/media/02.jpg": "/personal/static/media/02.658d0759c777ce7d698e.jpg",
@@ -48,8 +47,9 @@
     "static/media/VS-Code.png": "/personal/static/media/VS-Code.a61dc62c499ed3aeefdc.png",
     "static/media/01.jpg": "/personal/static/media/01.c1a4049e6f66e0309d90.jpg",
     "static/media/VisualStudio.png": "/personal/static/media/VisualStudio.8c02b972d3ecf810c018.png",
-    "static/media/COM.png": "/personal/static/media/COM.7e6d323362e10e3e79af.png",
+    "static/media/W06.jpg": "/personal/static/media/W06.0300167ec675d395be5d.jpg",
     "static/media/tailwind.png": "/personal/static/media/tailwind.607aa5341d521e4bc67f.png",
+    "static/media/W01.jpg": "/personal/static/media/W01.5bb38f598372b37c3c45.jpg",
     "static/media/Bootsrap.png": "/personal/static/media/Bootsrap.1646ad1b0e4a5d5b88eb.png",
     "static/media/W04.jpg": "/personal/static/media/W04.21ee8a9b159b95746258.jpg",
     "static/media/W03.jpg": "/personal/static/media/W03.dee5d04e14167f4a61fb.jpg",
@@ -71,11 +71,11 @@
     "static/media/slick.woff": "/personal/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/personal/index.html",
     "main.ab1e2133.css.map": "/personal/static/css/main.ab1e2133.css.map",
-    "main.6c9e4cdc.js.map": "/personal/static/js/main.6c9e4cdc.js.map",
+    "main.f4a91360.js.map": "/personal/static/js/main.f4a91360.js.map",
     "787.fb771931.chunk.js.map": "/personal/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab1e2133.css",
-    "static/js/main.6c9e4cdc.js"
+    "static/js/main.f4a91360.js"
   ]
 }
