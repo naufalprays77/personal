@@ -16,7 +16,6 @@ export default class MultipleItems extends Component {
           settings: {
             slidesToShow: 3,
             slidesToScroll: 3,
-
             infinite: true,
           },
         },
