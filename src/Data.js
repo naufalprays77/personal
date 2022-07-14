@@ -66,11 +66,10 @@ import W02 from './Assets/Img/Projects/W02.jpg';
 import W03 from './Assets/Img/Projects/W03.jpg';
 import W04 from './Assets/Img/Projects/W04.jpg';
 import W05 from './Assets/Img/Projects/W05.jpg';
-// import W06 from './Assets/Img/Projects/W06.jpg';
+import W06 from './Assets/Img/Projects/W06.jpg';
 import W07 from './Assets/Img/Projects/W07.jpg';
 import C01 from './Assets/Img/Projects/C01.jpg';
 import C02 from './Assets/Img/Projects/C02.jpg';
-import COM from './Assets/Img/Projects/COM.png';
 
 //
 export const dataProject = [
@@ -110,7 +109,7 @@ export const dataProject = [
     title: 'Project 04',
     category: 'Web',
     linkView: 'https://naufalprays77.github.io/web-portA4/',
-    // linkCode: 'https://github.com/naufalprays77/web-portA4.git',
+    linkCode: 'https://github.com/naufalprays77/web-portA4.git',
     // documentation: 'https://drive.google.com/drive/folders/1sJUh9e8qFHJPyybqZNapZ0dG7X_QG9LP?usp=sharing',
     description: 'This project was developed using React JS, HTML and CSS technology, this website tell about fetch API from server',
   },
@@ -126,13 +125,13 @@ export const dataProject = [
   },
   {
     id: '6',
-    image: COM,
+    image: W06,
     title: 'Project 06',
     category: 'Web',
-    // linkView: 'https://naufalprays77.github.io/web-portA6/',
-    // linkCode: 'https://github.com/naufalprays77/web-portA6.git',
+    linkView: 'https://naufalprays77.github.io/web-portA9/',
+    linkCode: 'https://github.com/naufalprays77/web-portA9.git',
     // documentation: 'https://drive.google.com/drive/folders/1plGhfeImiCMX8wn7lxqaSwYwAgNaO__b?usp=sharing',
-    // description: 'This project was developed using HTML, CSS, JavaScript & Bootstrap technology, besides that I also used Figma to make a mock-up of the website.',
+    description: 'This project was developed using HTML, CSS & JavaScript technology.',
   },
   {
     id: '7',

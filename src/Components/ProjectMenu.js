@@ -7,7 +7,7 @@ function ProjectMenu({ menuItem }) {
       {menuItem.map((item) => {
         return (
           <div class="container-menu">
-            <img src={item.image} alt="certifiacte" className="w-[100%] md:h-[280px] h-[200px] block" />
+            <img src={item.image} alt="project" className="w-[100%] md:h-[280px] h-[200px] block" />
             <div class="overlay">
               <div class="text">
                 <div className="text-[20px] pb-4 uppercase">{item.title}</div>
