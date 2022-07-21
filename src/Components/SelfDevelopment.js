@@ -44,7 +44,7 @@ export default class MultipleItems extends Component {
           {dataSort.map((item, index) => {
             return (
               <div key={index}>
-                <img src={item.image} className="p-3 mx-auto md:h-[280px] h-[200px]  " alt="" />
+                <img src={item.image} className="p-3 mx-auto md:h-[280px] h-[200px]" alt="img-certificate" />
               </div>
             );
           })}
