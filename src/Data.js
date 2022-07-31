@@ -60,6 +60,8 @@ import cert33 from './Assets/Img/SelfDevelopment/033.jpg';
 import cert34 from './Assets/Img/SelfDevelopment/034.jpg';
 import cert35 from './Assets/Img/SelfDevelopment/035.jpg';
 import cert36 from './Assets/Img/SelfDevelopment/036.jpg';
+import cert37 from './Assets/Img/SelfDevelopment/036.jpg';
+import cert38 from './Assets/Img/SelfDevelopment/036.jpg';
 
 // Project
 import W01 from './Assets/Img/Projects/W01.jpg';
@@ -112,7 +114,7 @@ export const dataProject = [
     linkView: 'https://naufalprays77.github.io/web-portA4/',
     linkCode: 'https://github.com/naufalprays77/web-portA4.git',
     // documentation: 'https://drive.google.com/drive/folders/1sJUh9e8qFHJPyybqZNapZ0dG7X_QG9LP?usp=sharing',
-    description: 'This project was developed using React JS, HTML and CSS technology, this website tell about fetch API from server',
+    description: 'This project was developed using HTML CSS and JS technology, this website tell about fetch API from server',
   },
   {
     id: '5',
@@ -432,6 +434,16 @@ export const datacertificate = [
   {
     id: 36,
     image: cert36,
+    href: '',
+  },
+  {
+    id: 37,
+    image: cert37,
+    href: '',
+  },
+  {
+    id: 38,
+    image: cert38,
     href: '',
   },
 ];
