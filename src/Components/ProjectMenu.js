@@ -16,9 +16,9 @@ function ProjectMenu({ menuItem }) {
                   <a href={item.linkView} className=" text-white hover:text-black bg-blackSoft hover:bg-white p-2 text-[9px] md:text-[12px] mx-1">
                     View Project
                   </a>
-                  <a href={item.documentation} className=" text-white hover:text-black bg-blackSoft hover:bg-white p-2 text-[9px] md:text-[12px] mx-1">
+                  {/* <a href={item.documentation} className=" text-white hover:text-black bg-blackSoft hover:bg-white p-2 text-[9px] md:text-[12px] mx-1">
                     Documentation
-                  </a>
+                  </a> */}
                   <a href={item.linkCode} className=" text-white hover:text-black bg-blackSoft hover:bg-white p-2 text-[9px] md:text-[12px] mx-1">
                     Source Code
                   </a>

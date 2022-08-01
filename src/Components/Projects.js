@@ -3,8 +3,6 @@ import { dataProject } from '../Data';
 import ProjectMenu from './ProjectMenu';
 import MenuProject from './MenuProject';
 
-// const allCategories = ['All', ...new Set(dataProject.map((item) => dataProject.category))];
-// const allCategories = { dataProject };
 const allCategories = ['All', ...new Set(dataProject.map((item) => item.category))];
 
 console.log(allCategories);

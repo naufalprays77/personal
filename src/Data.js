@@ -94,7 +94,7 @@ export const dataProject = [
     linkView: 'https://naufalprays77.github.io/web-portA2/',
     linkCode: 'https://github.com/naufalprays77/web-portA2.git',
     documentation: 'https://drive.google.com/drive/folders/1Qx9B5IXaIsaVTK11UjVApqRiECRIAstO?usp=sharing',
-    description: 'This project was developed using HTML, CSS, JavaScript & Bootstrap technology, besides that I also used Figma to make a mock-up of the website.',
+    description: 'This project was developed using HTML, CSS, JavaScript technology, besides that I also used Figma to make a mock-up of the website.',
   },
   {
     id: '3',
