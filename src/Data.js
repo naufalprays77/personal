@@ -60,8 +60,8 @@ import cert33 from './Assets/Img/SelfDevelopment/033.jpg';
 import cert34 from './Assets/Img/SelfDevelopment/034.jpg';
 import cert35 from './Assets/Img/SelfDevelopment/035.jpg';
 import cert36 from './Assets/Img/SelfDevelopment/036.jpg';
-import cert37 from './Assets/Img/SelfDevelopment/036.jpg';
-import cert38 from './Assets/Img/SelfDevelopment/036.jpg';
+import cert37 from './Assets/Img/SelfDevelopment/037.jpg';
+import cert38 from './Assets/Img/SelfDevelopment/038.jpg';
 
 // Project
 import W01 from './Assets/Img/Projects/W01.jpg';
