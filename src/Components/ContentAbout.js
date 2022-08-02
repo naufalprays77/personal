@@ -17,9 +17,9 @@ export const ContentAbout = () => {
         Why hire me for your next project?
       </h2>
       <p className="text-paragraph text-[14px] md:text-[16px] lg:text-[15px] xl:text-[16px]  ">
-        Nanda Naufal Prayasdewo who is usually called Naufal is a web developer with a focus on front end developers, he is also a graduate of Binus University with a major in informatics. In building the web he uses several web development
-        technologies such as HTML, CSS, JS, Bootstrap, Tailwind CSS, React JS etc., but not only explores web development, he also begins to explore UI / UX Design, especially for low/high fidelity prototype (mobile / web). he really likes
-        to start everything from scratch.
+        Computer Science/Informatics graduate with 1+ year experience as a Web Developer. Have passion in software development, especially in front end developer. Understanding and experience in front-end technologies, such as JavaScript,
+        HTML, CSS and React JS, including implementing CSS framework (Tailwind CSS & Bootstrap),able to create and implement database designs into databases using MSSQL/MYSQL. Familiar with figma software for building low/high fidelity
+        prototypes. I also like new challenges, especially to do development from scratch.
       </p>
       <div class="grid grid-cols-2 gap-2 md:grid-cols-3 lg:grid-cols-2 lg:gap-2 md:gap-4 xl:grid-cols-3 xl:gap-4 mt-4 text-[14px] md:text-[16px]">
         <div className="text-paragraph">
